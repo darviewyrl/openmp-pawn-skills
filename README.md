@@ -8,7 +8,7 @@ This repository is designed to help developers transition from legacy SA-MP habi
 
 To add this skill to your AI assistant, run the following command in your project terminal:
 
-```bash
+```
 npx skills add darviewyrl/pawn-skills
 ```
 
@@ -40,7 +40,7 @@ for(new i = 0; i < MAX_PLAYERS; i++) {
         // Logic
     }
 }
-````
+```
 
 **Modern (Fast & Clean):**
 
