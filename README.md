@@ -1,4 +1,4 @@
-# Pawn Best Practices 🚀
+# Pawn Skills 🚀
 
 Essential Pawn best practices, high-performance optimization techniques, and architectural guidelines tailored for both **SA-MP** and the modern **open.mp** framework.
 
@@ -6,10 +6,16 @@ This repository is designed to help developers transition from legacy SA-MP habi
 
 ## 🤖 Using with AI Agents (skills.sh / Cline / Windsurf)
 
-If you are using an AI coding assistant, you can integrate these standards directly into your workspace. 
+To add this skill to your AI assistant, run the following command in your project terminal:
 
+```bash
+npx skills add darviewyrl/pawn-skills
+```
+
+### Manual Installation
+If you prefer manual setup:
 1. Copy the `SKILL.md` file from this repository.
-2. Place it into your agent's skills directory (e.g., `.agents/skills/pawn-best-practices/SKILL.md`).
+2. Place it into your agent's skills directory (e.g., `.agents/skills/pawn-skills/SKILL.md`).
 3. Your AI will now automatically follow these best practices when writing or refactoring `.pwn` files.
 
 ## 📚 What's Inside?
