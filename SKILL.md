@@ -33,7 +33,7 @@ Clear naming is the foundation of maintainable code.
     *   Use `SCREAMING_SNAKE_CASE` (e.g., `MAX_VEHICLE_SLOTS`).
     *   **Safety:** Always wrap macro parameters in parentheses `((%0))` to prevent order-of-operation bugs.
 
-### Pawn Macro Mastery (#define)
+### Pawn Macro Mastery (`#define`)
 Treat macros purely as **"Text Replacement"**.
 *   **Safety:** Always wrap parameters in parentheses `(%0)` to avoid logic errors during replacement.
 *   **Structure:** Do **not** use trailing semicolons in `#define`. Use backslashes (`\`) for multi-line macros.
@@ -78,7 +78,7 @@ Pawn supports unique syntax that makes code cleaner and faster.
     *   ✅ `if (0 < health < 100)`
     *   ✅ `if (!(0 < health < 100))` (for "Outside" range)
 *   **Inline Assignments:** Fetch and check in one line.
-    *   ✅ `if ((id = GetTarget(playerid)) != INVALID_PLAYER_ID) { ... }`
+    *   ✅ `if ((id = GetTarget(playerid)) != INVALID_PLAYER_ID)`
 
 ## 4. Architectural Standards
 *   **Stock vs Public:** Use `stock` for internal logic. Use `public` only for Timers, RPCs, or Engine Callbacks. `stock` allows the compiler to remove unused code.
